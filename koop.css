@@ -1,0 +1,241 @@
+﻿
+.container {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative
+}
+
+
+.margin {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+.marginsides {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.marginupdown {
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-bottom:2px;
+    padding-top:2px;
+}
+
+
+.div-koop {
+    padding-top: 5px;
+  
+}
+
+
+.vertical-align {
+    height: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+.no-border {
+    border: 0;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+
+/* navbar */
+.navbar-inverse {
+    background-color: #4b4b4b;
+}
+ 
+/* Link */
+.navbar-inverse .navbar-nav > li > a {
+    color: #dedede;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #dedede;
+}
+
+.footer {
+    background-color: #4b4b4b;
+}
+
+.footer .text-muted {
+    color: #dedede;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    margin-top: -40px;
+    max-height: 110px;
+    position: relative;
+    z-index: -1;
+}
+
+.myback {
+    background-image: url('images/bg11v2.png');
+    background-repeat: repeat;
+     
+}
+
+@media screen and (min-width: 992px) {
+    #my-content {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #my-content {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container img {
+        margin-top: 5px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container img {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container img {
+        margin-top: 20px;
+    }
+}
+
+.form-group {
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+
+div, p {
+    font-family: 'Titillium Web', sans-serif;
+    word-wrap: break-word;
+}
+
+.auto-style1 {
+    color: #22B14C;
+}
+
+.auto-style2 {
+    color: #FF0000;
+    font-size: 30px;
+}
+
+
+.label-large {
+    font-size: large;
+    margin-top: 6px;
+}
+
+.label-bold {
+    font-weight: bold;
+}
+
+
+.mycheckbox input[type="checkbox"] {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.myradiobutton input[type="radio"] {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+ 
+.mytooltip{
+    margin-left:2px;
+    margin-top:2px;
+}
+.tooltip-inner { 
+    font-size: 14px;
+    max-width: 20%;
+    max-width: 80%;
+} 
+
+.glyphicon {
+    color: #337AB7;
+    font-size: 20px;
+}
+
+.auto-style1 {
+    color: #22B14C;
+}
+
+hr.label1 {
+    height: 5px;
+    border: 0;
+    box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+ 
+}
+hr.toggle {
+    height: 5px;
+    border: 0;
+    box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+    margin-bottom:0px;
+     
+}
+
+
+  
+.code {
+    color: #333;
+    position: relative;
+    overflow: hidden
+}
+
+.code:hover {
+}
+
+.code h2 {
+    text-align: left;
+    color: #ccc;
+    font: 11px monaco,mono-space;
+    padding-left: 30px
+}
+
+.code:after {
+    content: "Double click to close";
+    position: absolute;
+    right: 0;
+    top: 100%;
+    margin-top: 3px;
+    color: red;
+    font: 10px monaco,mono-space
+}
+
+.borderdiv {
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(176,176,176,1);
+    -moz-box-shadow: 1px 1px 10px 0px rgba(176,176,176,1);
+    box-shadow: 1px 1px 10px 0px rgba(176,176,176,1);
+    padding-top:5px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom :5px;
+}
+
+.circleplus {
+    border-radius: 50%;
+    width: 20px;
+    height: 16px;
+    padding: 4px;
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+    font: 20px Arial, sans-serif;
+}
+ 
+ 
